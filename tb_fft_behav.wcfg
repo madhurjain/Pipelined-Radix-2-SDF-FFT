@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fft_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="pkg_complex" />
+            <top_module name="pkg_misc" />
+            <top_module name="pkg_rom" />
+            <top_module name="tb_fft" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="115901060fs"></ZoomStartTime>
+      <ZoomEndTime time="388310005fs"></ZoomEndTime>
+      <Cursor1Time time="400441000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wvobject db_ref_id="1" fp_name="/tb_fft/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/data_in" type="array">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/data_out" type="array">
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/out_reg" type="array">
+      <obj_property name="ElementShortName">out_reg[0:63]</obj_property>
+      <obj_property name="ObjectShortName">out_reg[0:63]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/MAX_SAMPLES" type="other">
+      <obj_property name="ElementShortName">MAX_SAMPLES</obj_property>
+      <obj_property name="ObjectShortName">MAX_SAMPLES</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/IP_DATA" type="array">
+      <obj_property name="ElementShortName">IP_DATA[0:63]</obj_property>
+      <obj_property name="ObjectShortName">IP_DATA[0:63]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/psd" type="array">
+      <obj_property name="ElementShortName">psd[0:63]</obj_property>
+      <obj_property name="ObjectShortName">psd[0:63]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/wave_in" type="array">
+      <obj_property name="ElementShortName">wave_in[9:-6]</obj_property>
+      <obj_property name="ObjectShortName">wave_in[9:-6]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/wave_out" type="array">
+      <obj_property name="ElementShortName">wave_out[9:-6]</obj_property>
+      <obj_property name="ObjectShortName">wave_out[9:-6]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/uut/\fft_stages(3)\/fft_inst/toggle" type="logic">
+      <obj_property name="ElementShortName">toggle</obj_property>
+      <obj_property name="ObjectShortName">toggle</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/uut/\fft_stages(3)\/fft_inst/butterfly/xt1" type="array">
+      <obj_property name="ElementShortName">xt1</obj_property>
+      <obj_property name="ObjectShortName">xt1</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/uut/\fft_stages(3)\/fft_inst/butterfly/xt2" type="array">
+      <obj_property name="ElementShortName">xt2</obj_property>
+      <obj_property name="ObjectShortName">xt2</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/uut/\fft_stages(3)\/fft_inst/butterfly/Xk1" type="array">
+      <obj_property name="ElementShortName">Xk1</obj_property>
+      <obj_property name="ObjectShortName">Xk1</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_fft/uut/\fft_stages(3)\/fft_inst/butterfly/Xk2" type="array">
+      <obj_property name="ElementShortName">Xk2</obj_property>
+      <obj_property name="ObjectShortName">Xk2</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">6</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>
